@@ -1,0 +1,44 @@
+c:\users\akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.exe.config
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.exe
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.pdb
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csprojResolveAssemblyReference.cache
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Form1.resources
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.menu.resources
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.personel.resources
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Properties.Resources.resources
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csproj.GenerateResource.Cache
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.exe
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.pdb
+C:\Users\Akbuz\documents\visual studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.musteri.resources
+C:\Users\Akbuz\Documents\Visual Studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.akaryakit_islemleri.resources
+C:\Users\Akbuz\Documents\Visual Studio 2015\Projects\Benzin_istanyonu_otomasyonu\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.satis.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.exe.config
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.exe
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.pdb
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csprojAssemblyReference.cache
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.akaryakit_islemleri.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Form1.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.menu.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.musteri.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.personel.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Properties.Resources.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.satis.resources
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csproj.GenerateResource.cache
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.exe
+C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.pdb
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.exe.config
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.exe
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.pdb
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.akaryakit_islemleri.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Form1.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.menu.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.musteri.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.personel.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Properties.Resources.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.satis.resources
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.exe
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.pdb
