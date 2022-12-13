@@ -90,7 +90,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(267, 169);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(23, 16);
+            this.label4.Size = new System.Drawing.Size(41, 31);
             this.label4.TabIndex = 22;
             this.label4.Text = "LT";
             // 
@@ -100,7 +100,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(267, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 16);
+            this.label3.Size = new System.Drawing.Size(43, 31);
             this.label3.TabIndex = 21;
             this.label3.Text = "TL";
             // 
@@ -109,7 +109,7 @@
             this.textBox3.BackColor = System.Drawing.Color.AliceBlue;
             this.textBox3.Location = new System.Drawing.Point(161, 166);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.Size = new System.Drawing.Size(100, 37);
             this.textBox3.TabIndex = 20;
             // 
             // textBox2
@@ -117,7 +117,7 @@
             this.textBox2.BackColor = System.Drawing.Color.AliceBlue;
             this.textBox2.Location = new System.Drawing.Point(161, 124);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(100, 37);
             this.textBox2.TabIndex = 19;
             // 
             // textBox1
@@ -125,7 +125,7 @@
             this.textBox1.BackColor = System.Drawing.Color.AliceBlue;
             this.textBox1.Location = new System.Drawing.Point(161, 81);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 37);
             this.textBox1.TabIndex = 18;
             // 
             // label2
@@ -134,7 +134,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(101, 169);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 16);
+            this.label2.Size = new System.Drawing.Size(99, 31);
             this.label2.TabIndex = 17;
             this.label2.Text = "Depo :";
             // 
@@ -144,7 +144,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(66, 127);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 16);
+            this.label1.Size = new System.Drawing.Size(165, 31);
             this.label1.TabIndex = 16;
             this.label1.Text = "Litre Fiyatı :";
             // 
@@ -154,7 +154,7 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(50, 84);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 16);
+            this.label8.Size = new System.Drawing.Size(201, 31);
             this.label8.TabIndex = 15;
             this.label8.Text = "Akaryakıt Adı :";
             // 
@@ -238,7 +238,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(390, 310);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.Size = new System.Drawing.Size(177, 26);
             this.label5.TabIndex = 24;
             this.label5.Text = "Akaryakıt Adı :";
             // 
@@ -246,7 +246,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(489, 307);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 21);
+            this.textBox4.Size = new System.Drawing.Size(100, 34);
             this.textBox4.TabIndex = 28;
             // 
             // button5
@@ -261,7 +261,7 @@
             // 
             // akaryakit_islemleri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(679, 553);
@@ -276,6 +276,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "akaryakit_islemleri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Akaryakıt İşlemleri";

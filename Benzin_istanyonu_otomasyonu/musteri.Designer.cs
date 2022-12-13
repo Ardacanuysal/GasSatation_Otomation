@@ -73,7 +73,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(540, 317);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 22);
+            this.textBox4.Size = new System.Drawing.Size(121, 37);
             this.textBox4.TabIndex = 26;
             // 
             // label9
@@ -82,7 +82,7 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(502, 320);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 16);
+            this.label9.Size = new System.Drawing.Size(66, 31);
             this.label9.TabIndex = 25;
             this.label9.Text = "TC :";
             // 
@@ -92,7 +92,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label7.Location = new System.Drawing.Point(30, 323);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(349, 16);
+            this.label7.Size = new System.Drawing.Size(668, 31);
             this.label7.TabIndex = 24;
             this.label7.Text = "Silme ve Güncelleme İşlemi İçin Alttan Veriyi Seçiniz";
             // 
@@ -139,7 +139,7 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(145, 46);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(37, 16);
+            this.label8.Size = new System.Drawing.Size(66, 31);
             this.label8.TabIndex = 14;
             this.label8.Text = "TC :";
             // 
@@ -148,7 +148,7 @@
             this.maskedTextBox3.Location = new System.Drawing.Point(188, 43);
             this.maskedTextBox3.Mask = "00000000000";
             this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(121, 22);
+            this.maskedTextBox3.Size = new System.Drawing.Size(121, 37);
             this.maskedTextBox3.TabIndex = 13;
             // 
             // pictureBox1
@@ -169,21 +169,21 @@
             "Pasif"});
             this.comboBox1.Location = new System.Drawing.Point(188, 181);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 22);
+            this.comboBox1.Size = new System.Drawing.Size(121, 39);
             this.comboBox1.TabIndex = 11;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(188, 211);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 22);
+            this.textBox3.Size = new System.Drawing.Size(121, 37);
             this.textBox3.TabIndex = 10;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(188, 153);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 22);
+            this.textBox2.Size = new System.Drawing.Size(121, 37);
             this.textBox2.TabIndex = 9;
             // 
             // maskedTextBox2
@@ -191,7 +191,7 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(188, 125);
             this.maskedTextBox2.Mask = "(999) 0000000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(121, 22);
+            this.maskedTextBox2.Size = new System.Drawing.Size(121, 37);
             this.maskedTextBox2.TabIndex = 8;
             // 
             // maskedTextBox1
@@ -199,7 +199,7 @@
             this.maskedTextBox1.Location = new System.Drawing.Point(188, 97);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(121, 22);
+            this.maskedTextBox1.Size = new System.Drawing.Size(121, 37);
             this.maskedTextBox1.TabIndex = 7;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
@@ -207,7 +207,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(188, 69);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 22);
+            this.textBox1.Size = new System.Drawing.Size(121, 37);
             this.textBox1.TabIndex = 6;
             // 
             // label6
@@ -216,7 +216,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(94, 214);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 16);
+            this.label6.Size = new System.Drawing.Size(165, 31);
             this.label6.TabIndex = 5;
             this.label6.Text = "Araç Plaka :";
             // 
@@ -226,7 +226,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(55, 184);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 16);
+            this.label5.Size = new System.Drawing.Size(251, 31);
             this.label5.TabIndex = 4;
             this.label5.Text = "Abonelik Durumu :";
             // 
@@ -236,7 +236,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(130, 156);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 16);
+            this.label4.Size = new System.Drawing.Size(101, 31);
             this.label4.TabIndex = 3;
             this.label4.Text = "Email :";
             // 
@@ -246,7 +246,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(50, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 16);
+            this.label3.Size = new System.Drawing.Size(250, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Telefon Numarası :";
             // 
@@ -256,7 +256,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(78, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 16);
+            this.label2.Size = new System.Drawing.Size(199, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Doğum Tarihi :";
             // 
@@ -266,7 +266,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(94, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 16);
+            this.label1.Size = new System.Drawing.Size(166, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Adı Soyadı :";
             // 
@@ -336,7 +336,7 @@
             // 
             // musteri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(787, 562);
@@ -352,6 +352,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Verdana", 9.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "musteri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Müşteri İşlemleri";
