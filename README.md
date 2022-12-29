@@ -4,4 +4,4 @@
   <h1 align="center">YalePetrol - Benzinlik Otomasyonu</h1>
 </div>
 Benzinlik istasyonu otomasyonunda kullandığım gereçler;
-TextBox-Label-DataGridview-PictureBox-MaskedTextbox-Dataset-Sqlconnection-update-sqlquery-
+TextBox-Label-DataGridview-PictureBox-MaskedTextbox-Dataset-Sqlconnection
