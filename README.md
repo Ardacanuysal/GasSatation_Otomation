@@ -5,3 +5,9 @@
 </div>
 This project used this tools;
 TextBox-Label-DataGridview-PictureBox-MaskedTextbox-Dataset-Sqlconnection-MsSql
+<h4>:fire: Diagrams</h4>
+<img src="https://github.com/Ardacanuysal/GasSatation_Otomation/blob/main/Screenshoot/GantSS.png?raw=true" width="100%"  />
+
+<img src="https://github.com/Ardacanuysal/GasSatation_Otomation/blob/main/Screenshoot/UseCaseSS.png?raw=true" width="100%"  />
+
+</div>
