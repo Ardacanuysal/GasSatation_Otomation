@@ -52,11 +52,11 @@
     <Compile Include="akaryakit_islemleri.Designer.cs">
       <DependentUpon>akaryakit_islemleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Giris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
     </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
@@ -92,8 +92,8 @@
     <EmbeddedResource Include="akaryakit_islemleri.resx">
       <DependentUpon>akaryakit_islemleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
@@ -117,6 +117,7 @@
     <EmbeddedResource Include="satis.resx">
       <DependentUpon>satis.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="OtomasyonDataSet.xsc">
       <DependentUpon>OtomasyonDataSet.xsd</DependentUpon>
     </None>

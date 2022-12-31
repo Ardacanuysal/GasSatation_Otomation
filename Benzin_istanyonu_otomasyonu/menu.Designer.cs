@@ -29,82 +29,81 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu));
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Btn_Personel = new System.Windows.Forms.Button();
+            this.btn_Musteri = new System.Windows.Forms.Button();
+            this.Btn_Satis = new System.Windows.Forms.Button();
+            this.Btn_Akaryakit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button4
+            // Btn_Personel
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.Groups_Meeting_Light_icon;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(278, 254);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(207, 65);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Personel İşlemleri";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Btn_Personel.BackColor = System.Drawing.Color.DarkRed;
+            this.Btn_Personel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Personel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Personel.ForeColor = System.Drawing.Color.White;
+            this.Btn_Personel.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.Groups_Meeting_Light_icon;
+            this.Btn_Personel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Personel.Location = new System.Drawing.Point(265, 254);
+            this.Btn_Personel.Name = "Btn_Personel";
+            this.Btn_Personel.Size = new System.Drawing.Size(209, 65);
+            this.Btn_Personel.TabIndex = 3;
+            this.Btn_Personel.Text = "Personel İşlemleri";
+            this.Btn_Personel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Personel.UseVisualStyleBackColor = false;
+            this.Btn_Personel.Click += new System.EventHandler(this.Btn_Personel_Click);
             // 
-            // button3
+            // btn_Musteri
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.car;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(12, 325);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(213, 65);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Müşteri İşlemleri";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_Musteri.BackColor = System.Drawing.Color.Orange;
+            this.btn_Musteri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Musteri.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_Musteri.ForeColor = System.Drawing.Color.White;
+            this.btn_Musteri.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.car;
+            this.btn_Musteri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Musteri.Location = new System.Drawing.Point(12, 325);
+            this.btn_Musteri.Name = "btn_Musteri";
+            this.btn_Musteri.Size = new System.Drawing.Size(217, 65);
+            this.btn_Musteri.TabIndex = 2;
+            this.btn_Musteri.Text = "Müşteri İşlemleri";
+            this.btn_Musteri.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Musteri.UseVisualStyleBackColor = false;
+            this.btn_Musteri.Click += new System.EventHandler(this.btn_Musteri_Click);
             // 
-            // button2
+            // Btn_Satis
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.gas;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 254);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 65);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Akaryakıt Satış İşlemleri";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Btn_Satis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Btn_Satis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Satis.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Satis.ForeColor = System.Drawing.Color.White;
+            this.Btn_Satis.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.gas;
+            this.Btn_Satis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Satis.Location = new System.Drawing.Point(12, 254);
+            this.Btn_Satis.Name = "Btn_Satis";
+            this.Btn_Satis.Size = new System.Drawing.Size(217, 65);
+            this.Btn_Satis.TabIndex = 1;
+            this.Btn_Satis.Text = "Satış İşlemleri";
+            this.Btn_Satis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Satis.UseVisualStyleBackColor = false;
+            this.Btn_Satis.Click += new System.EventHandler(this.Btn_Satis_Click);
             // 
-            // button1
+            // Btn_Akaryakit
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(125)))), ((int)(((byte)(50)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.Oil_Delivery_icon;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(278, 325);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(207, 65);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Akaryakıt İşlemleri";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Btn_Akaryakit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(125)))), ((int)(((byte)(50)))));
+            this.Btn_Akaryakit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Akaryakit.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Akaryakit.ForeColor = System.Drawing.Color.White;
+            this.Btn_Akaryakit.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.Oil_Delivery_icon;
+            this.Btn_Akaryakit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Akaryakit.Location = new System.Drawing.Point(265, 325);
+            this.Btn_Akaryakit.Name = "Btn_Akaryakit";
+            this.Btn_Akaryakit.Size = new System.Drawing.Size(209, 65);
+            this.Btn_Akaryakit.TabIndex = 0;
+            this.Btn_Akaryakit.Text = "Akaryakıt İşlemleri";
+            this.Btn_Akaryakit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Akaryakit.UseVisualStyleBackColor = false;
+            this.Btn_Akaryakit.Click += new System.EventHandler(this.Btn_Akaryakit_Click);
             // 
             // pictureBox1
             // 
@@ -118,23 +117,23 @@
             // 
             // menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(497, 392);
+            this.ClientSize = new System.Drawing.Size(486, 392);
+            this.Controls.Add(this.Btn_Personel);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Musteri);
+            this.Controls.Add(this.Btn_Satis);
+            this.Controls.Add(this.Btn_Akaryakit);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menü";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -143,10 +142,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Btn_Akaryakit;
+        private System.Windows.Forms.Button Btn_Satis;
+        private System.Windows.Forms.Button btn_Musteri;
+        private System.Windows.Forms.Button Btn_Personel;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

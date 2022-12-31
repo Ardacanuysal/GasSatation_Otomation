@@ -33,20 +33,20 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Depo = new System.Windows.Forms.TextBox();
+            this.txt_LitreFiyati = new System.Windows.Forms.TextBox();
+            this.txt_AkarYakitAdi = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Btn_Home = new System.Windows.Forms.Button();
+            this.Btn_Update = new System.Windows.Forms.Button();
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.Btn_Add = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.txt_SearchAkaryakitAdi = new System.Windows.Forms.TextBox();
+            this.Btn_SearchAkaryakitAdi = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -57,9 +57,9 @@
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_Depo);
+            this.groupBox1.Controls.Add(this.txt_LitreFiyati);
+            this.groupBox1.Controls.Add(this.txt_AkarYakitAdi);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label8);
@@ -90,7 +90,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(267, 169);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 31);
+            this.label4.Size = new System.Drawing.Size(23, 16);
             this.label4.TabIndex = 22;
             this.label4.Text = "LT";
             // 
@@ -100,33 +100,34 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(267, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 31);
+            this.label3.Size = new System.Drawing.Size(24, 16);
             this.label3.TabIndex = 21;
             this.label3.Text = "TL";
             // 
-            // textBox3
+            // txt_Depo
             // 
-            this.textBox3.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox3.Location = new System.Drawing.Point(161, 166);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 37);
-            this.textBox3.TabIndex = 20;
+            this.txt_Depo.BackColor = System.Drawing.Color.AliceBlue;
+            this.txt_Depo.Location = new System.Drawing.Point(161, 166);
+            this.txt_Depo.Name = "txt_Depo";
+            this.txt_Depo.Size = new System.Drawing.Size(100, 22);
+            this.txt_Depo.TabIndex = 20;
             // 
-            // textBox2
+            // txt_LitreFiyati
             // 
-            this.textBox2.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox2.Location = new System.Drawing.Point(161, 124);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 37);
-            this.textBox2.TabIndex = 19;
+            this.txt_LitreFiyati.BackColor = System.Drawing.Color.AliceBlue;
+            this.txt_LitreFiyati.Location = new System.Drawing.Point(161, 124);
+            this.txt_LitreFiyati.Name = "txt_LitreFiyati";
+            this.txt_LitreFiyati.Size = new System.Drawing.Size(100, 22);
+            this.txt_LitreFiyati.TabIndex = 19;
             // 
-            // textBox1
+            // txt_AkarYakitAdi
             // 
-            this.textBox1.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox1.Location = new System.Drawing.Point(161, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 37);
-            this.textBox1.TabIndex = 18;
+            this.txt_AkarYakitAdi.BackColor = System.Drawing.Color.AliceBlue;
+            this.txt_AkarYakitAdi.Location = new System.Drawing.Point(161, 81);
+            this.txt_AkarYakitAdi.Name = "txt_AkarYakitAdi";
+            this.txt_AkarYakitAdi.Size = new System.Drawing.Size(100, 22);
+            this.txt_AkarYakitAdi.TabIndex = 18;
+            this.txt_AkarYakitAdi.TextChanged += new System.EventHandler(this.txt_AkarYakitAdi_TextChanged);
             // 
             // label2
             // 
@@ -134,7 +135,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(101, 169);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 31);
+            this.label2.Size = new System.Drawing.Size(52, 16);
             this.label2.TabIndex = 17;
             this.label2.Text = "Depo :";
             // 
@@ -144,7 +145,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(66, 127);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 31);
+            this.label1.Size = new System.Drawing.Size(89, 16);
             this.label1.TabIndex = 16;
             this.label1.Text = "Litre Fiyatı :";
             // 
@@ -154,77 +155,77 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(50, 84);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(201, 31);
+            this.label8.Size = new System.Drawing.Size(105, 16);
             this.label8.TabIndex = 15;
             this.label8.Text = "Akaryakıt Adı :";
             // 
-            // button4
+            // Btn_Home
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.home_icon;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(605, 18);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(62, 65);
-            this.button4.TabIndex = 26;
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Btn_Home.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Home.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Home.ForeColor = System.Drawing.Color.White;
+            this.Btn_Home.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.home_icon;
+            this.Btn_Home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Home.Location = new System.Drawing.Point(605, 18);
+            this.Btn_Home.Name = "Btn_Home";
+            this.Btn_Home.Size = new System.Drawing.Size(62, 65);
+            this.Btn_Home.TabIndex = 26;
+            this.Btn_Home.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Home.UseVisualStyleBackColor = false;
+            this.Btn_Home.Click += new System.EventHandler(this.Btn_Home_Click);
             // 
-            // button3
+            // Btn_Update
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.update1;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(605, 233);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(62, 65);
-            this.button3.TabIndex = 25;
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Btn_Update.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_Update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Update.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Update.ForeColor = System.Drawing.Color.White;
+            this.Btn_Update.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.update1;
+            this.Btn_Update.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Update.Location = new System.Drawing.Point(605, 233);
+            this.Btn_Update.Name = "Btn_Update";
+            this.Btn_Update.Size = new System.Drawing.Size(62, 65);
+            this.Btn_Update.TabIndex = 25;
+            this.Btn_Update.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Update.UseVisualStyleBackColor = false;
+            this.Btn_Update.Click += new System.EventHandler(this.Btn_Update_Click);
             // 
-            // button2
+            // btn_Delete
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.delete_icon;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(605, 162);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(62, 65);
-            this.button2.TabIndex = 24;
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_Delete.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Delete.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_Delete.ForeColor = System.Drawing.Color.White;
+            this.btn_Delete.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.delete_icon;
+            this.btn_Delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Delete.Location = new System.Drawing.Point(605, 162);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(62, 65);
+            this.btn_Delete.TabIndex = 24;
+            this.btn_Delete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Delete.UseVisualStyleBackColor = false;
+            this.btn_Delete.Click += new System.EventHandler(this.Btn_Delete_Click);
             // 
-            // button1
+            // Btn_Add
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.add_icon;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(605, 91);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 65);
-            this.button1.TabIndex = 23;
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Btn_Add.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_Add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Add.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Add.ForeColor = System.Drawing.Color.White;
+            this.Btn_Add.Image = global::Benzin_istanyonu_otomasyonu.Properties.Resources.add_icon;
+            this.Btn_Add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Add.Location = new System.Drawing.Point(605, 91);
+            this.Btn_Add.Name = "Btn_Add";
+            this.Btn_Add.Size = new System.Drawing.Size(62, 65);
+            this.Btn_Add.TabIndex = 23;
+            this.Btn_Add.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Add.UseVisualStyleBackColor = false;
+            this.Btn_Add.Click += new System.EventHandler(this.Btn_Add_Click);
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Azure;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Navy;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(13, 337);
             this.dataGridView1.Name = "dataGridView1";
@@ -238,41 +239,41 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(390, 310);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(177, 26);
+            this.label5.Size = new System.Drawing.Size(93, 13);
             this.label5.TabIndex = 24;
             this.label5.Text = "Akaryakıt Adı :";
             // 
-            // textBox4
+            // txt_SearchAkaryakitAdi
             // 
-            this.textBox4.Location = new System.Drawing.Point(489, 307);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 34);
-            this.textBox4.TabIndex = 28;
+            this.txt_SearchAkaryakitAdi.Location = new System.Drawing.Point(489, 307);
+            this.txt_SearchAkaryakitAdi.Name = "txt_SearchAkaryakitAdi";
+            this.txt_SearchAkaryakitAdi.Size = new System.Drawing.Size(100, 21);
+            this.txt_SearchAkaryakitAdi.TabIndex = 28;
             // 
-            // button5
+            // Btn_SearchAkaryakitAdi
             // 
-            this.button5.Location = new System.Drawing.Point(598, 305);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 29;
-            this.button5.Text = "Ara";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.Btn_SearchAkaryakitAdi.Location = new System.Drawing.Point(598, 305);
+            this.Btn_SearchAkaryakitAdi.Name = "Btn_SearchAkaryakitAdi";
+            this.Btn_SearchAkaryakitAdi.Size = new System.Drawing.Size(75, 23);
+            this.Btn_SearchAkaryakitAdi.TabIndex = 29;
+            this.Btn_SearchAkaryakitAdi.Text = "Ara";
+            this.Btn_SearchAkaryakitAdi.UseVisualStyleBackColor = true;
+            this.Btn_SearchAkaryakitAdi.Click += new System.EventHandler(this.Btn_SearchAkaryakitAdi_Click);
             // 
             // akaryakit_islemleri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(679, 553);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.Btn_SearchAkaryakitAdi);
+            this.Controls.Add(this.txt_SearchAkaryakitAdi);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Btn_Home);
+            this.Controls.Add(this.Btn_Update);
+            this.Controls.Add(this.btn_Delete);
+            this.Controls.Add(this.Btn_Add);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -295,20 +296,20 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Depo;
+        private System.Windows.Forms.TextBox txt_LitreFiyati;
+        private System.Windows.Forms.TextBox txt_AkarYakitAdi;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Btn_Home;
+        private System.Windows.Forms.Button Btn_Update;
+        private System.Windows.Forms.Button btn_Delete;
+        private System.Windows.Forms.Button Btn_Add;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox txt_SearchAkaryakitAdi;
+        private System.Windows.Forms.Button Btn_SearchAkaryakitAdi;
     }
 }

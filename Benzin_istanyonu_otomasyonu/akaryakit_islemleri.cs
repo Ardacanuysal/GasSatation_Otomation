@@ -20,9 +20,9 @@ namespace Benzin_istanyonu_otomasyonu
         DataTable tablo = new DataTable();
         public void listele()
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
+            txt_AkarYakitAdi.Text = "";
+            txt_LitreFiyati.Text = "";
+            txt_Depo.Text = "";
 
             tablo.Clear();
             baglan.Open();
@@ -38,7 +38,7 @@ namespace Benzin_istanyonu_otomasyonu
             listele();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Btn_Add_Click(object sender, EventArgs e)
         {
 
             if (baglan.State == ConnectionState.Open)
@@ -48,14 +48,14 @@ namespace Benzin_istanyonu_otomasyonu
             }
             baglan.Open();
 
-            SqlCommand kmt = new SqlCommand("INSERT INTO depo(akaryakit_adi,litre_fiyati,depo_kalan) values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')", baglan);
+            SqlCommand kmt = new SqlCommand("INSERT INTO depo(akaryakit_adi,litre_fiyati,depo_kalan) values('" + txt_AkarYakitAdi.Text + "','" + txt_LitreFiyati.Text + "','" + txt_Depo.Text + "')", baglan);
             kmt.ExecuteNonQuery();
             baglan.Close();
             MessageBox.Show("Kayıt Başarılı");
             listele();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Btn_Delete_Click(object sender, EventArgs e)
         {
 
             SqlCommand kmt;
@@ -68,11 +68,11 @@ namespace Benzin_istanyonu_otomasyonu
             listele();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Btn_Update_Click(object sender, EventArgs e)
         {
             SqlCommand kmt;
             baglan.Open();
-            kmt = new SqlCommand("UPDATE depo SET akaryakit_adi='" + textBox1.Text + "',litre_fiyati='" + textBox2.Text + "',depo_kalan='" + textBox3.Text + "'where akaryakit_adi='" + dataGridView1.CurrentRow.Cells[1].Value.ToString() + "'", baglan);
+            kmt = new SqlCommand("UPDATE depo SET akaryakit_adi='" + txt_AkarYakitAdi.Text + "',litre_fiyati='" + txt_LitreFiyati.Text + "',depo_kalan='" + txt_Depo.Text + "'where akaryakit_adi='" + dataGridView1.CurrentRow.Cells[1].Value.ToString() + "'", baglan);
             kmt.ExecuteNonQuery();
             baglan.Close();
             MessageBox.Show("İşleminiz başarılı");
@@ -81,30 +81,35 @@ namespace Benzin_istanyonu_otomasyonu
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            txt_AkarYakitAdi.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txt_LitreFiyati.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txt_Depo.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Btn_Home_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Btn_SearchAkaryakitAdi_Click(object sender, EventArgs e)
         {
 
             tablo.Clear();
             baglan.Open();
-            SqlDataAdapter adtr = new SqlDataAdapter("select * from depo where akaryakit_adi='" + textBox4.Text + "'", baglan);
+            SqlDataAdapter adtr = new SqlDataAdapter("select * from depo where akaryakit_adi='" + txt_SearchAkaryakitAdi.Text + "'", baglan);
             adtr.Fill(tablo);
             dataGridView1.DataSource = tablo;
             dataGridView1.Columns[0].Visible = false;
             baglan.Close();
-            textBox4.Text = "";
+            txt_SearchAkaryakitAdi.Text = "";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_AkarYakitAdi_TextChanged(object sender, EventArgs e)
         {
 
         }

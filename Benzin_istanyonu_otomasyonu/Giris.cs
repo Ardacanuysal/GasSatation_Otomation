@@ -10,17 +10,17 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace Benzin_istanyonu_otomasyonu
 {
-    public partial class Form1 : Form
+    public partial class Giris : Form
     {
-        public Form1()
+        public Giris()
         {
             InitializeComponent();
         }
         SqlConnection baglanti = new SqlConnection("Data Source=ARDACANUYSAA1BA;Initial Catalog=Otomasyon;Integrated Security=True");
         DataTable tablo = new DataTable();
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_giris_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("select * from admin where kullanici_adi='" + textBox1.Text + "' and sifre ='" + textBox2.Text + "'", baglanti);
+            SqlCommand komut = new SqlCommand("select * from admin where kullanici_adi='" + txt_Ad.Text + "' and sifre ='" + txt_sifre.Text + "'", baglanti);
             
             baglanti.Open();
 
@@ -36,19 +36,24 @@ namespace Benzin_istanyonu_otomasyonu
             else
             {
                 MessageBox.Show("Kullanıcı Adınız Yada Şifreniz Yanlış Yazılmıştır");
-                textBox1.Text = "";
-                textBox2.Text = "";
+                txt_Ad.Text = "";
+                txt_sifre.Text = "";
                 baglanti.Close();
                
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_cikis_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -17,25 +17,25 @@ namespace Benzin_istanyonu_otomasyonu
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Btn_Akaryakit_Click(object sender, EventArgs e)
         {
             akaryakit_islemleri akar = new akaryakit_islemleri();
             akar.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Btn_Satis_Click(object sender, EventArgs e)
         {
             satis sat = new satis();
             sat.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn_Musteri_Click(object sender, EventArgs e)
         {
             musteri must = new musteri();
             must.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Btn_Personel_Click(object sender, EventArgs e)
         {
             personel perso = new personel();
             perso.Show();

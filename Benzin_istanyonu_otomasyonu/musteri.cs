@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+
 namespace Benzin_istanyonu_otomasyonu
 {
     public partial class musteri : Form
@@ -20,14 +21,14 @@ namespace Benzin_istanyonu_otomasyonu
         DataTable tablo = new DataTable();
         public void listele()
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-            maskedTextBox1.Text = "";
-            comboBox1.Text = "";
+            txt_AdSoyad.Text = "";
+            txt_Email.Text = "";
+            txt_Plaka.Text = "";
+            mskd_DogumTarihi.Text = "";
+            Cmb_Email.Text = "";
 
-            maskedTextBox2.Text = "";
-            maskedTextBox3.Text = "";
+            mskd_TelefonNumber.Text = "";
+            mskd_Tc.Text = "";
             tablo.Clear();
             baglan.Open();
             SqlDataAdapter adtr = new SqlDataAdapter
@@ -43,7 +44,7 @@ namespace Benzin_istanyonu_otomasyonu
             listele();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Btn_Add_Click(object sender, EventArgs e)
         {
 
             if (baglan.State == ConnectionState.Open)
@@ -56,14 +57,14 @@ namespace Benzin_istanyonu_otomasyonu
             SqlCommand kmt;
 
             kmt = new SqlCommand
-            ("INSERT INTO musteri(tc,adi_soyadi,dogum_tarihi,tel,email,uyelik_durumu,plaka) values('" + maskedTextBox3.Text + "','" + textBox1.Text + "','" + maskedTextBox1.Text + "','" + maskedTextBox2.Text + "','" + textBox2.Text + "','" + comboBox1.Text + "','" + textBox3.Text + "')", baglan);
+            ("INSERT INTO musteri(tc,adi_soyadi,dogum_tarihi,tel,email,uyelik_durumu,plaka) values('" + mskd_Tc.Text + "','" + txt_AdSoyad.Text + "','" + mskd_DogumTarihi.Text + "','" + mskd_TelefonNumber.Text + "','" + txt_Email.Text + "','" + Cmb_Email.Text + "','" + txt_Plaka.Text + "')", baglan);
             kmt.ExecuteNonQuery();
             baglan.Close();
             MessageBox.Show("Kayıt Başarılı");
             listele();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Btn_Delete_Click(object sender, EventArgs e)
         {
 
             SqlCommand kmt;
@@ -76,51 +77,67 @@ namespace Benzin_istanyonu_otomasyonu
             listele();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Btn_Update_Click(object sender, EventArgs e)
         {
 
             SqlCommand kmt;
             baglan.Open();
-            kmt = new SqlCommand("UPDATE musteri SET tc='" + maskedTextBox3.Text + "',adi_soyadi='" + textBox1.Text + "',dogum_tarihi='" + maskedTextBox1.Text + "',tel='" + maskedTextBox2.Text + "',email='" + textBox2.Text + "',uyelik_durumu='" + comboBox1.Text + "',plaka='" + textBox3.Text + "'where tc='" + dataGridView1.CurrentRow.Cells[1].Value.ToString() + "'", baglan);
+            kmt = new SqlCommand("UPDATE musteri SET tc='" + mskd_Tc.Text + "',adi_soyadi='" + txt_AdSoyad.Text + "',dogum_tarihi='" + mskd_DogumTarihi.Text + "',tel='" + mskd_TelefonNumber.Text + "',email='" + txt_Email.Text + "',uyelik_durumu='" + Cmb_Email.Text + "',plaka='" + txt_Plaka.Text + "'where tc='" + dataGridView1.CurrentRow.Cells[1].Value.ToString() + "'", baglan);
             kmt.ExecuteNonQuery();
             baglan.Close();
             MessageBox.Show("İşleminiz başarılı");
             listele();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Btn_Home_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Btn_Search_Click(object sender, EventArgs e)
         {
 
             tablo.Clear();
             baglan.Open();
             SqlDataAdapter adtr = new SqlDataAdapter
-          ("select * from musteri where tc='" + textBox4.Text + "'", baglan);
+          ("select * from musteri where tc='" + txt_TcSearch.Text + "'", baglan);
             adtr.Fill(tablo);
             dataGridView1.DataSource = tablo;
             dataGridView1.Columns[0].Visible = false;
             baglan.Close();
-            textBox4.Text = "";
+            txt_TcSearch.Text = "";
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            maskedTextBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            maskedTextBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            maskedTextBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
-            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
-            comboBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
-            textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
+            mskd_Tc.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txt_AdSoyad.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            mskd_DogumTarihi.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            mskd_TelefonNumber.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+            txt_Email.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+            Cmb_Email.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
+            txt_Plaka.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+
+        private void txt_TcSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mskd_DogumTarihi_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void txt_Email_TextChanged(object sender, EventArgs e)
+        {
+          
+            }
+        }
     }
-}
+

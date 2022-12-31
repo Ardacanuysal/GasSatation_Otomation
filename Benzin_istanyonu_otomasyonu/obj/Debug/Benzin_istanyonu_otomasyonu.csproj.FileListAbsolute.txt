@@ -32,7 +32,6 @@ C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomas
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\bin\Debug\Benzin_istanyonu_otomasyonu.pdb
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csprojAssemblyReference.cache
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.akaryakit_islemleri.resources
-\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Form1.resources
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.menu.resources
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.musteri.resources
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.personel.resources
@@ -42,3 +41,4 @@ C:\Users\iavcc\source\repos\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomas
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.csproj.CoreCompileInputs.cache
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.exe
 \\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.pdb
+\\Mac\Home\Desktop\C#\benzin ramazan akbuz\Benzin_istanyonu_otomasyonu_\Benzin_istanyonu_otomasyonu\obj\Debug\Benzin_istanyonu_otomasyonu.Giris.resources

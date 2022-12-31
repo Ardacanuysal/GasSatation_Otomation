@@ -22,13 +22,13 @@ namespace Benzin_istanyonu_otomasyonu
 
         public void listele()
         {
-            textBox1.Text = "";
-            textBox2.Text = "0";
-            textBox3.Text = "0";
-            comboBox1.Text = "";
-            comboBox2.Text = "";
+            txt_Plaka.Text = "";
+            txt_DepodaKalan.Text = "0";
+            txt_SatilanLitre.Text = "0";
+            cmb_Tc.Text = "";
+            cmb_Akaryakit.Text = "";
             label9.Text = "0";
-            label8.Text = "0";
+            lbl_LitreFiyati.Text = "0";
             tablo.Clear();
             baglanti.Open();
             SqlDataAdapter adtr = new SqlDataAdapter("select * from satis", baglanti);
@@ -48,7 +48,7 @@ namespace Benzin_istanyonu_otomasyonu
           while (oku.Read())
             {
 
-                comboBox1.Items.Add(oku.GetValue(1));
+                cmb_Tc.Items.Add(oku.GetValue(1));
 
             }
             baglanti.Close();
@@ -61,7 +61,7 @@ namespace Benzin_istanyonu_otomasyonu
             while (oku2.Read())
             {
 
-                comboBox2.Items.Add(oku2.GetValue(1));
+                cmb_Akaryakit.Items.Add(oku2.GetValue(1));
 
             }
 
@@ -74,14 +74,14 @@ namespace Benzin_istanyonu_otomasyonu
             {
                 SqlConnection baglanti = new SqlConnection("Data Source=ARDACANUYSAA1BA;Initial Catalog=Otomasyon;Integrated Security=True");
                
-                SqlCommand komut = new SqlCommand("select * from musteri where tc='" + comboBox1.Text + "'", baglanti);
+                SqlCommand komut = new SqlCommand("select * from musteri where tc='" + cmb_Tc.Text + "'", baglanti);
                 
                 baglanti.Open();
                 SqlDataReader oku = komut.ExecuteReader();
                 if (oku.Read())
                 {
 
-                    textBox1.Text = oku.GetValue(7).ToString();
+                    txt_Plaka.Text = oku.GetValue(7).ToString();
 
                 }
             }
@@ -99,7 +99,7 @@ namespace Benzin_istanyonu_otomasyonu
             {
                 SqlConnection baglanti = new SqlConnection("Data Source=ARDACANUYSAA1BA;Initial Catalog=Otomasyon;Integrated Security=True");
                 
-                SqlCommand komut = new SqlCommand("select * from depo where akaryakit_adi='" + comboBox2.Text + "'", baglanti);
+                SqlCommand komut = new SqlCommand("select * from depo where akaryakit_adi='" + cmb_Akaryakit.Text + "'", baglanti);
                 
                 baglanti.Open();
 
@@ -107,10 +107,11 @@ namespace Benzin_istanyonu_otomasyonu
                 if (oku.Read())
                 {
 
-                    textBox2.Text = oku.GetValue(3).ToString();
-                    label8.Text = oku.GetValue(2).ToString();
+                    txt_DepodaKalan.Text = oku.GetValue(3).ToString();
+                    lbl_LitreFiyati.Text = oku.GetValue(2).ToString();
                 }
             }
+          
             catch
             {
 
@@ -119,11 +120,11 @@ namespace Benzin_istanyonu_otomasyonu
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_SatisYap_Click(object sender, EventArgs e)
         {
             int depodaolan, satilan,sonkalan = 0;
-            depodaolan = int.Parse(textBox2.Text);
-            satilan = int.Parse(textBox3.Text);
+            depodaolan = int.Parse(txt_DepodaKalan.Text);
+            satilan = int.Parse(txt_SatilanLitre.Text);
             if (depodaolan>satilan)
             {
 
@@ -137,7 +138,7 @@ namespace Benzin_istanyonu_otomasyonu
                 SqlCommand kmt;
 
                 kmt = new SqlCommand
-                ("INSERT INTO satis(arac_plaka,akaryakit_turu,satilan_litre,fiyat,tarih) values('" + textBox1.Text + "','" + comboBox2.Text + "','" + textBox3.Text + "','"+label9.Text+"','"+DateTime.Now.ToShortDateString()+"')", baglanti);
+                ("INSERT INTO satis(arac_plaka,akaryakit_turu,satilan_litre,fiyat,tarih) values('" + txt_Plaka.Text + "','" + cmb_Akaryakit.Text + "','" + txt_SatilanLitre.Text + "','"+label9.Text+"','"+DateTime.Now.ToShortDateString()+"')", baglanti);
                 kmt.ExecuteNonQuery();
                 baglanti.Close();
                 MessageBox.Show("Satış İşlemi Başarılı");
@@ -146,7 +147,7 @@ namespace Benzin_istanyonu_otomasyonu
 
                 SqlCommand kmt2;
                 baglanti.Open();
-                kmt2 = new SqlCommand("UPDATE depo SET depo_kalan='" + sonkalan.ToString() + "'where akaryakit_adi='" + comboBox2.Text + "'", baglanti);
+                kmt2 = new SqlCommand("UPDATE depo SET depo_kalan='" + sonkalan.ToString() + "'where akaryakit_adi='" + cmb_Akaryakit.Text + "'", baglanti);
                 kmt2.ExecuteNonQuery();
                 baglanti.Close();
                 listele();
@@ -154,7 +155,7 @@ namespace Benzin_istanyonu_otomasyonu
             }
             else
             {
-                textBox3.Text = "0";
+                txt_SatilanLitre.Text = "0";
                 MessageBox.Show("Depodaki Kapasiteden Fazla Satmayı Deniyorsunuz ! ");
             }
         }
@@ -163,18 +164,18 @@ namespace Benzin_istanyonu_otomasyonu
         {
             try
             {
-                label9.Text = (int.Parse(label8.Text) * int.Parse(textBox3.Text)).ToString();
+                label9.Text = (int.Parse(lbl_LitreFiyati.Text) * int.Parse(txt_SatilanLitre.Text)).ToString();
             }
             catch (Exception hata)
             {
-                textBox3.Text = "1";
+                txt_SatilanLitre.Text = "1";
                 MessageBox.Show(hata.Message);
                 
             }
        
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_Anasayfa_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
