@@ -15,9 +15,9 @@ TextBox-Label-DataGridview-PictureBox-MaskedTextbox-Dataset-Sqlconnection-MsSql
 
 <img src="https://github.com/Ardacanuysal/GasSatation_Otomation/blob/main/Screenshoot/Screenshoot/Menu.png?raw=true" width="100%"  />
 
+<img src="https://github.com/Ardacanuysal/GasSatation_Otomation/blob/main/Screenshoot/Screenshoot/satisislemleri.png?" width="100%"  />
+
 <img src="https://github.com/Ardacanuysal/GasSatation_Otomation/blob/main/Screenshoot/Screenshoot/Akaryakitislemleri.png?raw=true" width="100%"  />
-
-
 
 <img src="https://github.com/Ardacanuysal/GasSatation_Otomation/blob/main/Screenshoot/Screenshoot/musteriislermleri.png?raw=true" width="100%"  />
 
